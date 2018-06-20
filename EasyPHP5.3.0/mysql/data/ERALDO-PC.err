@@ -1,0 +1,37 @@
+180108 15:32:54 [Note] Plugin 'FEDERATED' is disabled.
+180108 15:32:55  InnoDB: Started; log sequence number 0 44233
+180108 15:32:55 [Note] Event Scheduler: Loaded 0 events
+180108 15:32:55 [Note] C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180108 15:34:19 [Note] Plugin 'FEDERATED' is disabled.
+180108 15:34:20  InnoDB: Started; log sequence number 0 44233
+180108 15:34:20 [Note] Recovering after a crash using mysql-bin
+180108 15:34:20 [Note] Starting crash recovery...
+180108 15:34:20 [Note] Crash recovery finished.
+180108 15:34:20 [Note] Event Scheduler: Loaded 0 events
+180108 15:34:20 [Note] C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180121 21:14:15 [Note] Plugin 'FEDERATED' is disabled.
+180121 21:14:15  InnoDB: Started; log sequence number 0 44233
+180121 21:14:15 [Note] Recovering after a crash using mysql-bin
+180121 21:14:15 [Note] Starting crash recovery...
+180121 21:14:15 [Note] Crash recovery finished.
+180121 21:14:16 [Note] Event Scheduler: Loaded 0 events
+180121 21:14:16 [Note] C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180301 13:53:45 [Note] Plugin 'FEDERATED' is disabled.
+180301 13:53:45  InnoDB: Started; log sequence number 0 44233
+180301 13:53:45 [Note] Recovering after a crash using mysql-bin
+180301 13:53:45 [Note] Starting crash recovery...
+180301 13:53:45 [Note] Crash recovery finished.
+180301 13:53:46 [Note] Event Scheduler: Loaded 0 events
+180301 13:53:46 [Note] C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+180329  9:49:10 [Note] Plugin 'FEDERATED' is disabled.
+180329  9:49:11  InnoDB: Started; log sequence number 0 44233
+180329  9:49:11 [Note] Recovering after a crash using mysql-bin
+180329  9:49:11 [Note] Starting crash recovery...
+180329  9:49:11 [Note] Crash recovery finished.
+180329  9:49:11 [Note] Event Scheduler: Loaded 0 events
+180329  9:49:11 [Note] C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

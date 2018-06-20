@@ -1,0 +1,8 @@
+180401  0:22:47 [Note] Plugin 'FEDERATED' is disabled.
+180401  0:22:49  InnoDB: Started; log sequence number 0 44233
+180401  0:22:49 [Note] Recovering after a crash using mysql-bin
+180401  0:22:49 [Note] Starting crash recovery...
+180401  0:22:49 [Note] Crash recovery finished.
+180401  0:22:50 [Note] Event Scheduler: Loaded 0 events
+180401  0:22:50 [Note] C:\Users\raian\DOCUME~1\PAROQUIA\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

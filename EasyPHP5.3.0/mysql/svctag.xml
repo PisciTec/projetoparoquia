@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration_data version="1.0">
+	<environment>
+		<hostname>HIGGINS</hostname>
+		<hostId/>
+		<osName>Windows_NT</osName>
+		<osVersion>Microsoft Windows XP SP(3) (501.2600)</osVersion>
+		<osArchitecture>x86</osArchitecture>
+		<systemModel>System Product Name</systemModel>
+		<systemManufacturer>System manufacturer</systemManufacturer>
+		<cpuManufacturer>AuthenticAMD</cpuManufacturer>
+		<serialNumber>System Serial Number</serialNumber>
+	</environment>
+	<registry version="1.0" urn="urn:st:uuid:40d7a1c6-9dac-4508-896b-c1e2060bce73">
+		<service_tag>
+			<instance_urn>urn:st:uuid:cc645cd8-0417-4eb0-bd1d-674608df9947</instance_urn>
+			<product_name>MySQL Server 5.1</product_name>
+			<product_version>5.1.37</product_version>
+			<product_urn>MYSZ9-510-ZZZZ</product_urn>
+			<product_parent_urn>N/A</product_parent_urn>
+			<product_parent>N/A</product_parent>
+			<product_defined_inst_id>license=gpl</product_defined_inst_id>
+			<product_vendor>MySQL AB</product_vendor>
+			<platform_arch>Windows</platform_arch>
+			<timestamp>2009-08-16 11:28:56 UTC</timestamp>
+			<container/>
+			<source>mysql-essential-5.1.37-win32.msi</source>
+			<installer_uid>-1</installer_uid>
+		</service_tag>
+	</registry>
+</registration_data>

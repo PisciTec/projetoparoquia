@@ -1,0 +1,876 @@
+170908 17:03:14 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+170908 17:03:14  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+170908 17:03:14  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+170908 17:03:14  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+170908 17:03:15  InnoDB: Started; log sequence number 0 0
+170908 17:03:49 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:03:50  InnoDB: Started; log sequence number 0 44233
+170908 17:06:54 [Note] Plugin 'FEDERATED' is disabled.
+C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Informação incorreta no arquivo '.\mysql\plugin.frm'
+170908 17:06:54 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+InnoDB: No valid checkpoint found.
+InnoDB: If this error appears when you are creating an InnoDB database,
+InnoDB: the problem may be that during an earlier attempt you managed
+InnoDB: to create the InnoDB data files, but log file creation failed.
+InnoDB: If that is the case, please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/error-creating-innodb.html
+170908 17:06:54 [ERROR] Plugin 'InnoDB' init function returned error.
+170908 17:06:54 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+170908 17:09:33 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:09:33  InnoDB: Started; log sequence number 0 44233
+170908 17:09:34 [Note] Event Scheduler: Loaded 0 events
+170908 17:09:34 [Note] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170908 17:12:18 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:18 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:26 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:26 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:26 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:26 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:26 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:12:58 [ERROR] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: Tabela '.\paroquia\missa' está marcada como danificada e deve ser reparada
+170908 17:14:04 [Note] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: 'Shutdown' normal
+
+170908 17:14:04 [Note] Event Scheduler: Purging the queue. 0 events
+170908 17:14:04  InnoDB: Starting shutdown...
+170908 17:14:05  InnoDB: Assertion failure in thread 1376 in file .\os\os0sync.c line 332
+InnoDB: Failing assertion: CloseHandle(event->handle)
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/forcing-recovery.html
+InnoDB: about forcing recovery.
+170908 17:14:05 - mysqld got exception 0xc0000005 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+We will try our best to scrape up some info that will hopefully help diagnose
+the problem, but since we have already crashed, something is definitely wrong
+and this may fail.
+
+key_buffer_size=16777216
+read_buffer_size=262144
+max_used_connections=2
+max_threads=151
+threads_connected=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 133305 K
+bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+thd: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+006EBF42    mysqld.exe!???
+0056A79C    mysqld.exe!???
+004CE735    mysqld.exe!???
+0072D06C    mysqld.exe!???
+77D8BD99    ntdll.dll!RtlInitializeExceptionChain()
+77D8BD6C    ntdll.dll!RtlInitializeExceptionChain()
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+170908 17:15:33 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:15:33  InnoDB: Started; log sequence number 0 44233
+170908 17:30:43 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:30:43  InnoDB: Started; log sequence number 0 44233
+170908 17:31:13 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:31:13  InnoDB: Started; log sequence number 0 44233
+170908 17:32:30 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:32:31  InnoDB: Started; log sequence number 0 44233
+170908 17:38:34 [Note] Plugin 'FEDERATED' is disabled.
+170908 17:38:34  InnoDB: Started; log sequence number 0 44233
+170909 16:27:55 [Note] Plugin 'FEDERATED' is disabled.
+170909 16:27:55  InnoDB: Started; log sequence number 0 44233
+170909 16:27:55 [Note] Recovering after a crash using mysql-bin
+170909 16:27:55 [Note] Starting crash recovery...
+170909 16:27:55 [Note] Crash recovery finished.
+170909 16:33:01 [Note] Plugin 'FEDERATED' is disabled.
+170909 16:33:02  InnoDB: Started; log sequence number 0 44233
+170910  9:19:08 [Note] Plugin 'FEDERATED' is disabled.
+170910  9:19:08  InnoDB: Started; log sequence number 0 44233
+170910  9:19:08 [Note] Recovering after a crash using mysql-bin
+170910  9:19:08 [Note] Starting crash recovery...
+170910  9:19:08 [Note] Crash recovery finished.
+170912 16:58:05 [Note] Plugin 'FEDERATED' is disabled.
+170912 16:58:05  InnoDB: Started; log sequence number 0 44233
+170912 16:58:05 [Note] Recovering after a crash using mysql-bin
+170912 16:58:05 [Note] Starting crash recovery...
+170912 16:58:05 [Note] Crash recovery finished.
+170914  8:03:27 [Note] Plugin 'FEDERATED' is disabled.
+170914  8:03:27  InnoDB: Started; log sequence number 0 44233
+170914  8:03:27 [Note] Recovering after a crash using mysql-bin
+170914  8:03:27 [Note] Starting crash recovery...
+170914  8:03:27 [Note] Crash recovery finished.
+170919 14:11:23 [Note] Plugin 'FEDERATED' is disabled.
+170919 14:11:24  InnoDB: Started; log sequence number 0 44233
+170919 14:11:24 [Note] Recovering after a crash using mysql-bin
+170919 14:11:24 [Note] Starting crash recovery...
+170919 14:11:24 [Note] Crash recovery finished.
+170920  7:17:22 [Note] Plugin 'FEDERATED' is disabled.
+170920  7:17:22  InnoDB: Started; log sequence number 0 44233
+170922  7:20:07 [Note] Plugin 'FEDERATED' is disabled.
+170922  7:20:07  InnoDB: Started; log sequence number 0 44233
+170922  7:20:07 [Note] Recovering after a crash using mysql-bin
+170922  7:20:07 [Note] Starting crash recovery...
+170922  7:20:07 [Note] Crash recovery finished.
+170923 15:48:42 [Note] Plugin 'FEDERATED' is disabled.
+170923 15:48:42  InnoDB: Started; log sequence number 0 44233
+170923 15:48:42 [Note] Recovering after a crash using mysql-bin
+170923 15:48:42 [Note] Starting crash recovery...
+170923 15:48:42 [Note] Crash recovery finished.
+170923 17:05:35 [Note] Plugin 'FEDERATED' is disabled.
+170923 17:05:36  InnoDB: Started; log sequence number 0 44233
+170923 17:05:36 [Note] Recovering after a crash using mysql-bin
+170923 17:05:36 [Note] Starting crash recovery...
+170923 17:05:36 [Note] Crash recovery finished.
+170924  5:59:18 [Note] Plugin 'FEDERATED' is disabled.
+170924  5:59:18  InnoDB: Started; log sequence number 0 44233
+170924  5:59:18 [Note] Recovering after a crash using mysql-bin
+170924  5:59:18 [Note] Starting crash recovery...
+170924  5:59:18 [Note] Crash recovery finished.
+170926 14:58:45 [Note] Plugin 'FEDERATED' is disabled.
+170926 14:58:45  InnoDB: Started; log sequence number 0 44233
+170926 14:58:45 [Note] Recovering after a crash using mysql-bin
+170926 14:58:45 [Note] Starting crash recovery...
+170926 14:58:45 [Note] Crash recovery finished.
+170926 15:26:18 [Note] Plugin 'FEDERATED' is disabled.
+170926 15:26:19  InnoDB: Started; log sequence number 0 44233
+170926 15:26:19 [Note] Recovering after a crash using mysql-bin
+170926 15:26:19 [Note] Starting crash recovery...
+170926 15:26:19 [Note] Crash recovery finished.
+170927 14:08:20 [Note] Plugin 'FEDERATED' is disabled.
+170927 14:08:21  InnoDB: Started; log sequence number 0 44233
+170927 14:08:21 [Note] Recovering after a crash using mysql-bin
+170927 14:08:21 [Note] Starting crash recovery...
+170927 14:08:21 [Note] Crash recovery finished.
+170928 14:28:47 [Note] Plugin 'FEDERATED' is disabled.
+170928 14:28:47  InnoDB: Started; log sequence number 0 44233
+170928 14:28:47 [Note] Recovering after a crash using mysql-bin
+170928 14:28:47 [Note] Starting crash recovery...
+170928 14:28:47 [Note] Crash recovery finished.
+170929 14:10:15 [Note] Plugin 'FEDERATED' is disabled.
+170929 14:10:15  InnoDB: Started; log sequence number 0 44233
+170929 14:10:15 [Note] Recovering after a crash using mysql-bin
+170929 14:10:15 [Note] Starting crash recovery...
+170929 14:10:15 [Note] Crash recovery finished.
+170929 14:37:26 [Note] Plugin 'FEDERATED' is disabled.
+170929 14:37:26  InnoDB: Started; log sequence number 0 44233
+170929 14:37:26 [Note] Recovering after a crash using mysql-bin
+170929 14:37:26 [Note] Starting crash recovery...
+170929 14:37:26 [Note] Crash recovery finished.
+171001 17:49:03 [Note] Plugin 'FEDERATED' is disabled.
+171001 17:49:04  InnoDB: Started; log sequence number 0 44233
+171001 17:49:04 [Note] Recovering after a crash using mysql-bin
+171001 17:49:05 [Note] Starting crash recovery...
+171001 17:49:05 [Note] Crash recovery finished.
+171001 17:51:27 [Note] Plugin 'FEDERATED' is disabled.
+171001 17:51:28  InnoDB: Started; log sequence number 0 44233
+171001 17:53:16 [Note] Plugin 'FEDERATED' is disabled.
+171001 17:53:17  InnoDB: Started; log sequence number 0 44233
+171001 17:56:03 [Note] Plugin 'FEDERATED' is disabled.
+171001 17:56:04  InnoDB: Started; log sequence number 0 44233
+171001 17:56:04 [Note] Recovering after a crash using mysql-bin
+171001 17:56:04 [Note] Starting crash recovery...
+171001 17:56:04 [Note] Crash recovery finished.
+171002  6:09:57 [Note] Plugin 'FEDERATED' is disabled.
+171002  6:09:58  InnoDB: Started; log sequence number 0 44233
+171002  6:09:58 [Note] Recovering after a crash using mysql-bin
+171002  6:09:58 [Note] Starting crash recovery...
+171002  6:09:58 [Note] Crash recovery finished.
+171002  6:15:33 [Note] Plugin 'FEDERATED' is disabled.
+171002  6:15:35  InnoDB: Started; log sequence number 0 44233
+171002  6:15:35 [Note] Recovering after a crash using mysql-bin
+171002  6:15:35 [Note] Starting crash recovery...
+171002  6:15:35 [Note] Crash recovery finished.
+171002  7:54:03 [Note] Plugin 'FEDERATED' is disabled.
+171002  7:54:04  InnoDB: Started; log sequence number 0 44233
+171002  8:02:25 [Note] Plugin 'FEDERATED' is disabled.
+171002  8:02:26  InnoDB: Started; log sequence number 0 44233
+171002  8:02:26 [Note] Recovering after a crash using mysql-bin
+171002  8:02:26 [Note] Starting crash recovery...
+171002  8:02:26 [Note] Crash recovery finished.
+171002  8:10:06 [Note] Plugin 'FEDERATED' is disabled.
+171002  8:10:06  InnoDB: Started; log sequence number 0 44233
+171002  8:10:06 [Note] Recovering after a crash using mysql-bin
+171002  8:10:06 [Note] Starting crash recovery...
+171002  8:10:06 [Note] Crash recovery finished.
+171002  8:24:26 [Note] Plugin 'FEDERATED' is disabled.
+171002  8:24:26  InnoDB: Started; log sequence number 0 44233
+171002  8:29:29 [Note] Plugin 'FEDERATED' is disabled.
+171002  8:29:29  InnoDB: Started; log sequence number 0 44233
+171002 16:53:54 [Note] Plugin 'FEDERATED' is disabled.
+171002 16:53:55  InnoDB: Started; log sequence number 0 44233
+171002 16:53:55 [Note] Recovering after a crash using mysql-bin
+171002 16:53:55 [Note] Starting crash recovery...
+171002 16:53:55 [Note] Crash recovery finished.
+171004 10:42:56 [Note] Plugin 'FEDERATED' is disabled.
+171004 10:42:57  InnoDB: Started; log sequence number 0 44233
+171004 10:42:58 [Note] Recovering after a crash using mysql-bin
+171004 10:42:59 [Note] Starting crash recovery...
+171004 10:42:59 [Note] Crash recovery finished.
+171004 11:08:00 [Note] Plugin 'FEDERATED' is disabled.
+171004 11:08:00  InnoDB: Started; log sequence number 0 44233
+171004 14:59:19 [Note] Plugin 'FEDERATED' is disabled.
+171004 14:59:19  InnoDB: Started; log sequence number 0 44233
+171004 15:03:02 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:03:02  InnoDB: Started; log sequence number 0 44233
+171004 15:06:16 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:06:16  InnoDB: Started; log sequence number 0 44233
+171004 15:12:10 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:12:10  InnoDB: Started; log sequence number 0 44233
+171004 15:12:10 [Note] Recovering after a crash using mysql-bin
+171004 15:12:10 [Note] Starting crash recovery...
+171004 15:12:10 [Note] Crash recovery finished.
+171004 15:39:27 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:39:28  InnoDB: Started; log sequence number 0 44233
+171004 15:39:28 [Note] Recovering after a crash using mysql-bin
+171004 15:39:28 [Note] Starting crash recovery...
+171004 15:39:28 [Note] Crash recovery finished.
+171004 15:54:00 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:54:00  InnoDB: Started; log sequence number 0 44233
+171004 15:54:54 [Note] Plugin 'FEDERATED' is disabled.
+171004 15:54:54  InnoDB: Started; log sequence number 0 44233
+171006 10:21:39 [Note] Plugin 'FEDERATED' is disabled.
+171006 10:21:39  InnoDB: Started; log sequence number 0 44233
+171007  7:04:14 [Note] Plugin 'FEDERATED' is disabled.
+171007  7:04:14  InnoDB: Started; log sequence number 0 44233
+171011  9:07:25 [Note] Plugin 'FEDERATED' is disabled.
+171011  9:07:25  InnoDB: Started; log sequence number 0 44233
+171011  9:07:25 [Note] Recovering after a crash using mysql-bin
+171011  9:07:25 [Note] Starting crash recovery...
+171011  9:07:25 [Note] Crash recovery finished.
+171011 16:21:31 [Note] Plugin 'FEDERATED' is disabled.
+171011 16:21:31  InnoDB: Started; log sequence number 0 44233
+171014 10:34:59 [Note] Plugin 'FEDERATED' is disabled.
+171014 10:35:00  InnoDB: Started; log sequence number 0 44233
+171014 10:35:00 [Note] Recovering after a crash using mysql-bin
+171014 10:35:00 [Note] Starting crash recovery...
+171014 10:35:00 [Note] Crash recovery finished.
+171014 10:36:53 [Note] Plugin 'FEDERATED' is disabled.
+171014 10:36:53  InnoDB: Started; log sequence number 0 44233
+171016  7:19:35 [Note] Plugin 'FEDERATED' is disabled.
+171016  7:19:36  InnoDB: Started; log sequence number 0 44233
+171016  7:19:36 [Note] Recovering after a crash using mysql-bin
+171016  7:19:36 [Note] Starting crash recovery...
+171016  7:19:36 [Note] Crash recovery finished.
+171017  8:02:21 [Note] Plugin 'FEDERATED' is disabled.
+171017  8:02:21  InnoDB: Started; log sequence number 0 44233
+171017  8:02:21 [Note] Recovering after a crash using mysql-bin
+171017  8:02:21 [Note] Starting crash recovery...
+171017  8:02:21 [Note] Crash recovery finished.
+171021  7:07:08 [Note] Plugin 'FEDERATED' is disabled.
+171021  7:07:09  InnoDB: Started; log sequence number 0 44233
+171021  7:07:09 [Note] Recovering after a crash using mysql-bin
+171021  7:07:09 [Note] Starting crash recovery...
+171021  7:07:09 [Note] Crash recovery finished.
+171023  9:04:24 [Note] Plugin 'FEDERATED' is disabled.
+171023  9:04:24  InnoDB: Started; log sequence number 0 44233
+171023  9:04:24 [Note] Recovering after a crash using mysql-bin
+171023  9:04:24 [Note] Starting crash recovery...
+171023  9:04:24 [Note] Crash recovery finished.
+171024 11:22:54 [Note] Plugin 'FEDERATED' is disabled.
+171024 11:22:55  InnoDB: Started; log sequence number 0 44233
+171024 11:43:34 [Note] Plugin 'FEDERATED' is disabled.
+171024 11:43:34  InnoDB: Started; log sequence number 0 44233
+171024 11:43:34 [Note] Recovering after a crash using mysql-bin
+171024 11:43:34 [Note] Starting crash recovery...
+171024 11:43:34 [Note] Crash recovery finished.
+171025  7:07:54 [Note] Plugin 'FEDERATED' is disabled.
+171025  7:07:56  InnoDB: Started; log sequence number 0 44233
+171025  7:07:56 [Note] Recovering after a crash using mysql-bin
+171025  7:07:56 [Note] Starting crash recovery...
+171025  7:07:56 [Note] Crash recovery finished.
+171027  7:05:04 [Note] Plugin 'FEDERATED' is disabled.
+171027  7:05:04  InnoDB: Started; log sequence number 0 44233
+171027  7:05:04 [Note] Recovering after a crash using mysql-bin
+171027  7:05:04 [Note] Starting crash recovery...
+171027  7:05:04 [Note] Crash recovery finished.
+171030  7:09:36 [Note] Plugin 'FEDERATED' is disabled.
+171030  7:09:36  InnoDB: Started; log sequence number 0 44233
+171030  7:09:36 [Note] Recovering after a crash using mysql-bin
+171030  7:09:37 [Note] Starting crash recovery...
+171030  7:09:37 [Note] Crash recovery finished.
+171102  7:46:41 [Note] Plugin 'FEDERATED' is disabled.
+171102  7:46:43  InnoDB: Started; log sequence number 0 44233
+171102  7:46:43 [Note] Recovering after a crash using mysql-bin
+171102  7:46:43 [Note] Starting crash recovery...
+171102  7:46:43 [Note] Crash recovery finished.
+171102  7:47:20 [Note] Plugin 'FEDERATED' is disabled.
+171102  7:47:21  InnoDB: Started; log sequence number 0 44233
+171103  7:08:48 [Note] Plugin 'FEDERATED' is disabled.
+171103  7:08:49  InnoDB: Started; log sequence number 0 44233
+171103 14:31:08 [Note] Plugin 'FEDERATED' is disabled.
+171103 14:31:11  InnoDB: Started; log sequence number 0 44233
+171103 14:31:11 [Note] Recovering after a crash using mysql-bin
+171103 14:31:11 [Note] Starting crash recovery...
+171103 14:31:11 [Note] Crash recovery finished.
+171107  7:04:54 [Note] Plugin 'FEDERATED' is disabled.
+171107  7:04:54  InnoDB: Started; log sequence number 0 44233
+171107  7:04:54 [Note] Recovering after a crash using mysql-bin
+171107  7:04:54 [Note] Starting crash recovery...
+171107  7:04:54 [Note] Crash recovery finished.
+171108 14:16:55 [Note] Plugin 'FEDERATED' is disabled.
+171108 14:16:55  InnoDB: Started; log sequence number 0 44233
+171108 14:16:55 [Note] Recovering after a crash using mysql-bin
+171108 14:16:55 [Note] Starting crash recovery...
+171108 14:16:55 [Note] Crash recovery finished.
+171109  7:05:55 [Note] Plugin 'FEDERATED' is disabled.
+171109  7:05:55  InnoDB: Started; log sequence number 0 44233
+171109  7:05:55 [Note] Recovering after a crash using mysql-bin
+171109  7:05:55 [Note] Starting crash recovery...
+171109  7:05:55 [Note] Crash recovery finished.
+171111  7:12:26 [Note] Plugin 'FEDERATED' is disabled.
+171111  7:12:26  InnoDB: Started; log sequence number 0 44233
+171111  7:28:27 [Note] Plugin 'FEDERATED' is disabled.
+171111  7:28:27  InnoDB: Started; log sequence number 0 44233
+171111  7:28:27 [Note] Recovering after a crash using mysql-bin
+171111  7:28:27 [Note] Starting crash recovery...
+171111  7:28:27 [Note] Crash recovery finished.
+171112  7:10:28 [Note] Plugin 'FEDERATED' is disabled.
+171112  7:10:28  InnoDB: Started; log sequence number 0 44233
+171112  7:10:28 [Note] Recovering after a crash using mysql-bin
+171112  7:10:28 [Note] Starting crash recovery...
+171112  7:10:28 [Note] Crash recovery finished.
+171113 14:06:12 [Note] Plugin 'FEDERATED' is disabled.
+171113 14:06:12  InnoDB: Started; log sequence number 0 44233
+171113 14:06:12 [Note] Recovering after a crash using mysql-bin
+171113 14:06:12 [Note] Starting crash recovery...
+171113 14:06:12 [Note] Crash recovery finished.
+171114  7:10:58 [Note] Plugin 'FEDERATED' is disabled.
+171114  7:10:59  InnoDB: Started; log sequence number 0 44233
+171114  7:10:59 [Note] Recovering after a crash using mysql-bin
+171114  7:10:59 [Note] Starting crash recovery...
+171114  7:10:59 [Note] Crash recovery finished.
+171115  8:01:58 [Note] Plugin 'FEDERATED' is disabled.
+171115  8:01:58  InnoDB: Started; log sequence number 0 44233
+171115  8:01:58 [Note] Recovering after a crash using mysql-bin
+171115  8:01:58 [Note] Starting crash recovery...
+171115  8:01:58 [Note] Crash recovery finished.
+171116  7:08:03 [Note] Plugin 'FEDERATED' is disabled.
+171116  7:08:04  InnoDB: Started; log sequence number 0 44233
+171116  7:08:04 [Note] Recovering after a crash using mysql-bin
+171116  7:08:04 [Note] Starting crash recovery...
+171116  7:08:04 [Note] Crash recovery finished.
+171116  7:08:54 [Note] Plugin 'FEDERATED' is disabled.
+171116  7:08:54  InnoDB: Started; log sequence number 0 44233
+171116  7:16:36 [Note] Plugin 'FEDERATED' is disabled.
+171116  7:16:36  InnoDB: Started; log sequence number 0 44233
+171116 14:12:38 [Note] Plugin 'FEDERATED' is disabled.
+171116 14:12:38  InnoDB: Started; log sequence number 0 44233
+171116 14:12:38 [Note] Recovering after a crash using mysql-bin
+171116 14:12:38 [Note] Starting crash recovery...
+171116 14:12:38 [Note] Crash recovery finished.
+171117  7:05:46 [Note] Plugin 'FEDERATED' is disabled.
+171117  7:05:46  InnoDB: Started; log sequence number 0 44233
+171117  7:05:46 [Note] Recovering after a crash using mysql-bin
+171117  7:05:46 [Note] Starting crash recovery...
+171117  7:05:46 [Note] Crash recovery finished.
+171118  7:10:50 [Note] Plugin 'FEDERATED' is disabled.
+171118  7:10:50  InnoDB: Started; log sequence number 0 44233
+171118  7:10:50 [Note] Recovering after a crash using mysql-bin
+171118  7:10:50 [Note] Starting crash recovery...
+171118  7:10:50 [Note] Crash recovery finished.
+171118 14:03:07 [Note] Plugin 'FEDERATED' is disabled.
+171118 14:03:07  InnoDB: Started; log sequence number 0 44233
+171118 14:03:07 [Note] Recovering after a crash using mysql-bin
+171118 14:03:07 [Note] Starting crash recovery...
+171118 14:03:07 [Note] Crash recovery finished.
+171119  7:11:57 [Note] Plugin 'FEDERATED' is disabled.
+171119  7:11:57  InnoDB: Started; log sequence number 0 44233
+171119  7:11:57 [Note] Recovering after a crash using mysql-bin
+171119  7:11:57 [Note] Starting crash recovery...
+171119  7:11:57 [Note] Crash recovery finished.
+171120  7:08:35 [Note] Plugin 'FEDERATED' is disabled.
+171120  7:08:36  InnoDB: Started; log sequence number 0 44233
+171120  7:08:36 [Note] Recovering after a crash using mysql-bin
+171120  7:08:36 [Note] Starting crash recovery...
+171120  7:08:36 [Note] Crash recovery finished.
+171121  7:03:25 [Note] Plugin 'FEDERATED' is disabled.
+171121  7:03:26  InnoDB: Started; log sequence number 0 44233
+171121  7:03:26 [Note] Recovering after a crash using mysql-bin
+171121  7:03:26 [Note] Starting crash recovery...
+171121  7:03:26 [Note] Crash recovery finished.
+171121  7:03:51 [Note] Plugin 'FEDERATED' is disabled.
+171121  7:03:53  InnoDB: Started; log sequence number 0 44233
+171121 14:05:12 [Note] Plugin 'FEDERATED' is disabled.
+171121 14:05:13  InnoDB: Started; log sequence number 0 44233
+171121 14:05:13 [Note] Recovering after a crash using mysql-bin
+171121 14:05:13 [Note] Starting crash recovery...
+171121 14:05:13 [Note] Crash recovery finished.
+171122  7:01:38 [Note] Plugin 'FEDERATED' is disabled.
+171122  7:01:38  InnoDB: Started; log sequence number 0 44233
+171122  7:01:38 [Note] Recovering after a crash using mysql-bin
+171122  7:01:38 [Note] Starting crash recovery...
+171122  7:01:38 [Note] Crash recovery finished.
+171122 14:23:21 [Note] Plugin 'FEDERATED' is disabled.
+171122 14:23:21  InnoDB: Started; log sequence number 0 44233
+171122 14:23:21 [Note] Recovering after a crash using mysql-bin
+171122 14:23:21 [Note] Starting crash recovery...
+171122 14:23:21 [Note] Crash recovery finished.
+171123  7:08:21 [Note] Plugin 'FEDERATED' is disabled.
+171123  7:08:21  InnoDB: Started; log sequence number 0 44233
+171123  7:08:21 [Note] Recovering after a crash using mysql-bin
+171123  7:08:21 [Note] Starting crash recovery...
+171123  7:08:21 [Note] Crash recovery finished.
+171124  7:03:51 [Note] Plugin 'FEDERATED' is disabled.
+171124  7:03:51  InnoDB: Started; log sequence number 0 44233
+171124 11:08:14 [Note] Plugin 'FEDERATED' is disabled.
+171124 11:08:15  InnoDB: Started; log sequence number 0 44233
+171124 11:08:15 [Note] Recovering after a crash using mysql-bin
+171124 11:08:15 [Note] Starting crash recovery...
+171124 11:08:15 [Note] Crash recovery finished.
+171124 14:08:55 [Note] Plugin 'FEDERATED' is disabled.
+171124 14:08:56  InnoDB: Started; log sequence number 0 44233
+171124 14:08:56 [Note] Recovering after a crash using mysql-bin
+171124 14:08:56 [Note] Starting crash recovery...
+171124 14:08:56 [Note] Crash recovery finished.
+171124 14:31:43 [Note] Plugin 'FEDERATED' is disabled.
+171124 14:31:43  InnoDB: Started; log sequence number 0 44233
+171125  7:05:13 [Note] Plugin 'FEDERATED' is disabled.
+171125  7:05:14  InnoDB: Started; log sequence number 0 44233
+171125  8:47:58 [Note] Plugin 'FEDERATED' is disabled.
+171125  8:47:58  InnoDB: Started; log sequence number 0 44233
+171125  8:47:59 [Note] Recovering after a crash using mysql-bin
+171125  8:47:59 [Note] Starting crash recovery...
+171125  8:47:59 [Note] Crash recovery finished.
+171125 13:59:07 [Note] Plugin 'FEDERATED' is disabled.
+171125 13:59:08  InnoDB: Started; log sequence number 0 44233
+171125 13:59:08 [Note] Recovering after a crash using mysql-bin
+171125 13:59:08 [Note] Starting crash recovery...
+171125 13:59:08 [Note] Crash recovery finished.
+171125 15:31:25 [Note] Plugin 'FEDERATED' is disabled.
+171125 15:31:27  InnoDB: Started; log sequence number 0 44233
+171125 15:31:27 [Note] Recovering after a crash using mysql-bin
+171125 15:31:27 [Note] Starting crash recovery...
+171125 15:31:27 [Note] Crash recovery finished.
+171126  7:00:14 [Note] Plugin 'FEDERATED' is disabled.
+171126  7:00:15  InnoDB: Started; log sequence number 0 44233
+171126  7:00:15 [Note] Recovering after a crash using mysql-bin
+171126  7:00:15 [Note] Starting crash recovery...
+171126  7:00:15 [Note] Crash recovery finished.
+171127  7:02:58 [Note] Plugin 'FEDERATED' is disabled.
+171127  7:02:58  InnoDB: Started; log sequence number 0 44233
+171127  7:02:58 [Note] Recovering after a crash using mysql-bin
+171127  7:02:58 [Note] Starting crash recovery...
+171127  7:02:58 [Note] Crash recovery finished.
+171127  7:17:17 [Note] Plugin 'FEDERATED' is disabled.
+171127  7:17:17  InnoDB: Started; log sequence number 0 44233
+171127  7:17:17 [Note] Recovering after a crash using mysql-bin
+171127  7:17:17 [Note] Starting crash recovery...
+171127  7:17:17 [Note] Crash recovery finished.
+171127  7:52:44 [Note] Plugin 'FEDERATED' is disabled.
+171127  7:52:44  InnoDB: Started; log sequence number 0 44233
+171127  7:52:44 [Note] Recovering after a crash using mysql-bin
+171127  7:52:44 [Note] Starting crash recovery...
+171127  7:52:44 [Note] Crash recovery finished.
+171127  8:48:36 [Note] Plugin 'FEDERATED' is disabled.
+171127  8:48:37  InnoDB: Started; log sequence number 0 44233
+171128  7:07:31 [Note] Plugin 'FEDERATED' is disabled.
+171128  7:07:31  InnoDB: Started; log sequence number 0 44233
+171128  7:07:31 [Note] Recovering after a crash using mysql-bin
+171128  7:07:31 [Note] Starting crash recovery...
+171128  7:07:31 [Note] Crash recovery finished.
+171128  7:11:27 [Note] Plugin 'FEDERATED' is disabled.
+171128  7:11:28  InnoDB: Started; log sequence number 0 44233
+171128  7:11:28 [Note] Recovering after a crash using mysql-bin
+171128  7:11:28 [Note] Starting crash recovery...
+171128  7:11:28 [Note] Crash recovery finished.
+171128  9:58:07 [Note] Plugin 'FEDERATED' is disabled.
+171128  9:58:07  InnoDB: Started; log sequence number 0 44233
+171129  7:10:45 [Note] Plugin 'FEDERATED' is disabled.
+171129  7:10:46  InnoDB: Started; log sequence number 0 44233
+171129  7:10:46 [Note] Recovering after a crash using mysql-bin
+171129  7:10:46 [Note] Starting crash recovery...
+171129  7:10:46 [Note] Crash recovery finished.
+171129 14:04:56 [Note] Plugin 'FEDERATED' is disabled.
+171129 14:04:56  InnoDB: Started; log sequence number 0 44233
+171129 14:04:56 [Note] Recovering after a crash using mysql-bin
+171129 14:04:56 [Note] Starting crash recovery...
+171129 14:04:56 [Note] Crash recovery finished.
+171130  7:16:41 [Note] Plugin 'FEDERATED' is disabled.
+171130  7:16:42  InnoDB: Started; log sequence number 0 44233
+171130  7:16:42 [Note] Recovering after a crash using mysql-bin
+171130  7:16:42 [Note] Starting crash recovery...
+171130  7:16:42 [Note] Crash recovery finished.
+171201  7:06:12 [Note] Plugin 'FEDERATED' is disabled.
+171201  7:06:14  InnoDB: Started; log sequence number 0 44233
+171201  7:06:14 [Note] Recovering after a crash using mysql-bin
+171201  7:06:14 [Note] Starting crash recovery...
+171201  7:06:14 [Note] Crash recovery finished.
+171201 14:06:11 [Note] Plugin 'FEDERATED' is disabled.
+171201 14:06:12  InnoDB: Started; log sequence number 0 44233
+171201 14:06:12 [Note] Recovering after a crash using mysql-bin
+171201 14:06:12 [Note] Starting crash recovery...
+171201 14:06:12 [Note] Crash recovery finished.
+171202  5:34:51 [Note] Plugin 'FEDERATED' is disabled.
+171202  5:34:52  InnoDB: Started; log sequence number 0 44233
+171202  5:34:52 [Note] Recovering after a crash using mysql-bin
+171202  5:34:52 [Note] Starting crash recovery...
+171202  5:34:52 [Note] Crash recovery finished.
+171202  7:05:42 [Note] Plugin 'FEDERATED' is disabled.
+171202  7:05:42  InnoDB: Started; log sequence number 0 44233
+171202  7:05:42 [Note] Recovering after a crash using mysql-bin
+171202  7:05:42 [Note] Starting crash recovery...
+171202  7:05:42 [Note] Crash recovery finished.
+171203  7:06:38 [Note] Plugin 'FEDERATED' is disabled.
+171203  7:06:38  InnoDB: Started; log sequence number 0 44233
+171203  7:06:38 [Note] Recovering after a crash using mysql-bin
+171203  7:06:39 [Note] Starting crash recovery...
+171203  7:06:39 [Note] Crash recovery finished.
+171204  7:06:59 [Note] Plugin 'FEDERATED' is disabled.
+171204  7:07:00  InnoDB: Started; log sequence number 0 44233
+171204  7:07:00 [Note] Recovering after a crash using mysql-bin
+171204  7:07:00 [Note] Starting crash recovery...
+171204  7:07:00 [Note] Crash recovery finished.
+171204  9:34:09 [Note] Plugin 'FEDERATED' is disabled.
+171204  9:34:09  InnoDB: Started; log sequence number 0 44233
+171204  9:34:09 [Note] Recovering after a crash using mysql-bin
+171204  9:34:09 [Note] Starting crash recovery...
+171204  9:34:09 [Note] Crash recovery finished.
+171204 14:01:29 [Note] Plugin 'FEDERATED' is disabled.
+171204 14:01:29  InnoDB: Started; log sequence number 0 44233
+171204 14:01:29 [Note] Recovering after a crash using mysql-bin
+171204 14:01:29 [Note] Starting crash recovery...
+171204 14:01:29 [Note] Crash recovery finished.
+171205  7:00:22 [Note] Plugin 'FEDERATED' is disabled.
+171205  7:00:24  InnoDB: Started; log sequence number 0 44233
+171205  7:00:24 [Note] Recovering after a crash using mysql-bin
+171205  7:00:24 [Note] Starting crash recovery...
+171205  7:00:24 [Note] Crash recovery finished.
+171205 11:11:09 [Note] Plugin 'FEDERATED' is disabled.
+171205 11:11:09  InnoDB: Started; log sequence number 0 44233
+171205 11:11:09 [Note] Recovering after a crash using mysql-bin
+171205 11:11:09 [Note] Starting crash recovery...
+171205 11:11:09 [Note] Crash recovery finished.
+171206  7:11:24 [Note] Plugin 'FEDERATED' is disabled.
+171206  7:11:24  InnoDB: Started; log sequence number 0 44233
+171206  7:11:24 [Note] Recovering after a crash using mysql-bin
+171206  7:11:24 [Note] Starting crash recovery...
+171206  7:11:24 [Note] Crash recovery finished.
+171206 14:05:59 [Note] Plugin 'FEDERATED' is disabled.
+171206 14:05:59  InnoDB: Started; log sequence number 0 44233
+171206 14:05:59 [Note] Recovering after a crash using mysql-bin
+171206 14:05:59 [Note] Starting crash recovery...
+171206 14:05:59 [Note] Crash recovery finished.
+171207  7:04:34 [Note] Plugin 'FEDERATED' is disabled.
+171207  7:04:34  InnoDB: Started; log sequence number 0 44233
+171207  7:04:34 [Note] Recovering after a crash using mysql-bin
+171207  7:04:34 [Note] Starting crash recovery...
+171207  7:04:34 [Note] Crash recovery finished.
+171208  7:01:10 [Note] Plugin 'FEDERATED' is disabled.
+171208  7:01:14  InnoDB: Started; log sequence number 0 44233
+171208  7:01:14 [Note] Recovering after a crash using mysql-bin
+171208  7:01:14 [Note] Starting crash recovery...
+171208  7:01:14 [Note] Crash recovery finished.
+171208  7:10:45 [Note] Plugin 'FEDERATED' is disabled.
+171208  7:10:45  InnoDB: Started; log sequence number 0 44233
+171208  7:10:45 [Note] Recovering after a crash using mysql-bin
+171208  7:10:45 [Note] Starting crash recovery...
+171208  7:10:45 [Note] Crash recovery finished.
+171208 14:46:39 [Note] Plugin 'FEDERATED' is disabled.
+171208 14:46:39  InnoDB: Started; log sequence number 0 44233
+171208 14:46:39 [Note] Recovering after a crash using mysql-bin
+171208 14:46:39 [Note] Starting crash recovery...
+171208 14:46:39 [Note] Crash recovery finished.
+171209  7:07:50 [Note] Plugin 'FEDERATED' is disabled.
+171209  7:07:51  InnoDB: Started; log sequence number 0 44233
+171209  7:07:51 [Note] Recovering after a crash using mysql-bin
+171209  7:07:51 [Note] Starting crash recovery...
+171209  7:07:51 [Note] Crash recovery finished.
+171210  7:00:12 [Note] Plugin 'FEDERATED' is disabled.
+171210  7:00:14  InnoDB: Started; log sequence number 0 44233
+171210  7:00:14 [Note] Recovering after a crash using mysql-bin
+171210  7:00:14 [Note] Starting crash recovery...
+171210  7:00:14 [Note] Crash recovery finished.
+171211  7:00:00 [Note] Plugin 'FEDERATED' is disabled.
+171211  7:00:02  InnoDB: Started; log sequence number 0 44233
+171211  7:00:02 [Note] Recovering after a crash using mysql-bin
+171211  7:00:02 [Note] Starting crash recovery...
+171211  7:00:02 [Note] Crash recovery finished.
+171211  7:35:22 [Note] Plugin 'FEDERATED' is disabled.
+171211  7:35:23  InnoDB: Started; log sequence number 0 44233
+171211  7:35:23 [Note] Recovering after a crash using mysql-bin
+171211  7:35:23 [Note] Starting crash recovery...
+171211  7:35:23 [Note] Crash recovery finished.
+171211 14:03:17 [Note] Plugin 'FEDERATED' is disabled.
+171211 14:03:17  InnoDB: Started; log sequence number 0 44233
+171211 14:03:17 [Note] Recovering after a crash using mysql-bin
+171211 14:03:17 [Note] Starting crash recovery...
+171211 14:03:17 [Note] Crash recovery finished.
+171212  7:01:35 [Note] Plugin 'FEDERATED' is disabled.
+171212  7:01:36  InnoDB: Started; log sequence number 0 44233
+171212  7:01:37 [Note] Recovering after a crash using mysql-bin
+171212  7:01:37 [Note] Starting crash recovery...
+171212  7:01:37 [Note] Crash recovery finished.
+171212  7:08:36 [Note] Plugin 'FEDERATED' is disabled.
+171212  7:08:37  InnoDB: Started; log sequence number 0 44233
+171212  7:08:37 [Note] Recovering after a crash using mysql-bin
+171212  7:08:37 [Note] Starting crash recovery...
+171212  7:08:37 [Note] Crash recovery finished.
+171213  7:05:24 [Note] Plugin 'FEDERATED' is disabled.
+171213  7:05:24  InnoDB: Started; log sequence number 0 44233
+171213  7:05:24 [Note] Recovering after a crash using mysql-bin
+171213  7:05:24 [Note] Starting crash recovery...
+171213  7:05:24 [Note] Crash recovery finished.
+171213 14:04:51 [Note] Plugin 'FEDERATED' is disabled.
+171213 14:04:52  InnoDB: Started; log sequence number 0 44233
+171213 14:04:52 [Note] Recovering after a crash using mysql-bin
+171213 14:04:52 [Note] Starting crash recovery...
+171213 14:04:52 [Note] Crash recovery finished.
+171214  7:08:05 [Note] Plugin 'FEDERATED' is disabled.
+171214  7:08:05  InnoDB: Started; log sequence number 0 44233
+171214  7:08:05 [Note] Recovering after a crash using mysql-bin
+171214  7:08:05 [Note] Starting crash recovery...
+171214  7:08:05 [Note] Crash recovery finished.
+171214  7:34:28 [Note] Plugin 'FEDERATED' is disabled.
+171214  7:34:29  InnoDB: Started; log sequence number 0 44233
+171214  7:34:29 [Note] Recovering after a crash using mysql-bin
+171214  7:34:29 [Note] Starting crash recovery...
+171214  7:34:29 [Note] Crash recovery finished.
+171214 14:03:51 [Note] Plugin 'FEDERATED' is disabled.
+171214 14:03:51  InnoDB: Started; log sequence number 0 44233
+171214 14:03:51 [Note] Recovering after a crash using mysql-bin
+171214 14:03:51 [Note] Starting crash recovery...
+171214 14:03:51 [Note] Crash recovery finished.
+171215  7:00:42 [Note] Plugin 'FEDERATED' is disabled.
+171215  7:00:43  InnoDB: Started; log sequence number 0 44233
+171215  7:00:43 [Note] Recovering after a crash using mysql-bin
+171215  7:00:43 [Note] Starting crash recovery...
+171215  7:00:43 [Note] Crash recovery finished.
+171216 14:08:21 [Note] Plugin 'FEDERATED' is disabled.
+171216 14:08:21  InnoDB: Started; log sequence number 0 44233
+171216 14:08:21 [Note] Recovering after a crash using mysql-bin
+171216 14:08:21 [Note] Starting crash recovery...
+171216 14:08:21 [Note] Crash recovery finished.
+171217  7:00:03 [Note] Plugin 'FEDERATED' is disabled.
+171217  7:00:04  InnoDB: Started; log sequence number 0 44233
+171217  7:00:04 [Note] Recovering after a crash using mysql-bin
+171217  7:00:04 [Note] Starting crash recovery...
+171217  7:00:04 [Note] Crash recovery finished.
+171218  7:07:22 [Note] Plugin 'FEDERATED' is disabled.
+171218  7:07:23  InnoDB: Started; log sequence number 0 44233
+171218  7:07:23 [Note] Recovering after a crash using mysql-bin
+171218  7:07:23 [Note] Starting crash recovery...
+171218  7:07:23 [Note] Crash recovery finished.
+171219  7:04:02 [Note] Plugin 'FEDERATED' is disabled.
+171219  7:04:04  InnoDB: Started; log sequence number 0 44233
+171219  7:04:04 [Note] Recovering after a crash using mysql-bin
+171219  7:04:04 [Note] Starting crash recovery...
+171219  7:04:04 [Note] Crash recovery finished.
+171219 14:34:38 [Note] Plugin 'FEDERATED' is disabled.
+171219 14:34:38  InnoDB: Started; log sequence number 0 44233
+171219 14:34:39 [Note] Recovering after a crash using mysql-bin
+171219 14:34:39 [Note] Starting crash recovery...
+171219 14:34:39 [Note] Crash recovery finished.
+171219 17:38:02 [Note] Plugin 'FEDERATED' is disabled.
+171219 17:38:03  InnoDB: Started; log sequence number 0 44233
+171219 17:38:03 [Note] Recovering after a crash using mysql-bin
+171219 17:38:03 [Note] Starting crash recovery...
+171219 17:38:03 [Note] Crash recovery finished.
+171219 17:45:12 [Note] Plugin 'FEDERATED' is disabled.
+171219 17:45:13  InnoDB: Started; log sequence number 0 44233
+171219 17:45:13 [Note] Recovering after a crash using mysql-bin
+171219 17:45:13 [Note] Starting crash recovery...
+171219 17:45:13 [Note] Crash recovery finished.
+171220  7:04:12 [Note] Plugin 'FEDERATED' is disabled.
+171220  7:04:12  InnoDB: Started; log sequence number 0 44233
+171220  7:04:12 [Note] Recovering after a crash using mysql-bin
+171220  7:04:12 [Note] Starting crash recovery...
+171220  7:04:12 [Note] Crash recovery finished.
+171221  7:04:54 [Note] Plugin 'FEDERATED' is disabled.
+171221  7:04:58  InnoDB: Started; log sequence number 0 44233
+171221  7:04:58 [Note] Recovering after a crash using mysql-bin
+171221  7:04:59 [Note] Starting crash recovery...
+171221  7:04:59 [Note] Crash recovery finished.
+171221 14:04:39 [Note] Plugin 'FEDERATED' is disabled.
+171221 14:04:40  InnoDB: Started; log sequence number 0 44233
+171221 14:04:40 [Note] Recovering after a crash using mysql-bin
+171221 14:04:40 [Note] Starting crash recovery...
+171221 14:04:40 [Note] Crash recovery finished.
+171221 18:24:10 [Note] Plugin 'FEDERATED' is disabled.
+171221 18:24:11  InnoDB: Started; log sequence number 0 44233
+171221 18:24:11 [Note] Recovering after a crash using mysql-bin
+171221 18:24:11 [Note] Starting crash recovery...
+171221 18:24:11 [Note] Crash recovery finished.
+171222  7:04:00 [Note] Plugin 'FEDERATED' is disabled.
+171222  7:04:01  InnoDB: Started; log sequence number 0 44233
+171222  7:04:01 [Note] Recovering after a crash using mysql-bin
+171222  7:04:01 [Note] Starting crash recovery...
+171222  7:04:01 [Note] Crash recovery finished.
+171222 14:02:19 [Note] Plugin 'FEDERATED' is disabled.
+171222 14:02:20  InnoDB: Started; log sequence number 0 44233
+171222 14:02:20 [Note] Recovering after a crash using mysql-bin
+171222 14:02:20 [Note] Starting crash recovery...
+171222 14:02:20 [Note] Crash recovery finished.
+171223  7:01:16 [Note] Plugin 'FEDERATED' is disabled.
+171223  7:01:17  InnoDB: Started; log sequence number 0 44233
+171223  7:01:17 [Note] Recovering after a crash using mysql-bin
+171223  7:01:17 [Note] Starting crash recovery...
+171223  7:01:17 [Note] Crash recovery finished.
+171223 14:00:40 [Note] Plugin 'FEDERATED' is disabled.
+171223 14:00:41  InnoDB: Started; log sequence number 0 44233
+171223 14:00:41 [Note] Recovering after a crash using mysql-bin
+171223 14:00:42 [Note] Starting crash recovery...
+171223 14:00:42 [Note] Crash recovery finished.
+171224  6:06:21 [Note] Plugin 'FEDERATED' is disabled.
+171224  6:06:21  InnoDB: Started; log sequence number 0 44233
+171224  6:06:21 [Note] Recovering after a crash using mysql-bin
+171224  6:06:21 [Note] Starting crash recovery...
+171224  6:06:21 [Note] Crash recovery finished.
+171224 14:05:49 [Note] Plugin 'FEDERATED' is disabled.
+171224 14:05:49  InnoDB: Started; log sequence number 0 44233
+171224 14:05:49 [Note] Recovering after a crash using mysql-bin
+171224 14:05:49 [Note] Starting crash recovery...
+171224 14:05:49 [Note] Crash recovery finished.
+171224 18:04:34 [Note] Plugin 'FEDERATED' is disabled.
+171224 18:04:34  InnoDB: Started; log sequence number 0 44233
+171224 18:04:35 [Note] Recovering after a crash using mysql-bin
+171224 18:04:35 [Note] Starting crash recovery...
+171224 18:04:35 [Note] Crash recovery finished.
+171224 18:04:35 [Note] Event Scheduler: Loaded 0 events
+171224 18:04:35 [Note] C:\PROGRA~2\EASYPH~1.0\MySql\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+171224 18:07:43 [Note] Plugin 'FEDERATED' is disabled.
+171224 18:07:44  InnoDB: Started; log sequence number 0 44233
+171224 18:07:44 [Note] Recovering after a crash using mysql-bin
+171224 18:07:44 [Note] Starting crash recovery...
+171224 18:07:44 [Note] Crash recovery finished.
+171225  7:05:52 [Note] Plugin 'FEDERATED' is disabled.
+171225  7:05:52  InnoDB: Started; log sequence number 0 44233
+171225  7:05:52 [Note] Recovering after a crash using mysql-bin
+171225  7:05:52 [Note] Starting crash recovery...
+171225  7:05:52 [Note] Crash recovery finished.
+171226  7:07:34 [Note] Plugin 'FEDERATED' is disabled.
+171226  7:07:34  InnoDB: Started; log sequence number 0 44233
+171226  7:07:34 [Note] Recovering after a crash using mysql-bin
+171226  7:07:34 [Note] Starting crash recovery...
+171226  7:07:34 [Note] Crash recovery finished.
+171226 14:05:45 [Note] Plugin 'FEDERATED' is disabled.
+171226 14:05:46  InnoDB: Started; log sequence number 0 44233
+171226 14:05:46 [Note] Recovering after a crash using mysql-bin
+171226 14:05:46 [Note] Starting crash recovery...
+171226 14:05:46 [Note] Crash recovery finished.
+171227  7:00:57 [Note] Plugin 'FEDERATED' is disabled.
+171227  7:00:58  InnoDB: Started; log sequence number 0 44233
+171227  7:00:58 [Note] Recovering after a crash using mysql-bin
+171227  7:00:58 [Note] Starting crash recovery...
+171227  7:00:58 [Note] Crash recovery finished.
+171227 13:58:24 [Note] Plugin 'FEDERATED' is disabled.
+171227 13:58:24  InnoDB: Started; log sequence number 0 44233
+171227 13:58:24 [Note] Recovering after a crash using mysql-bin
+171227 13:58:25 [Note] Starting crash recovery...
+171227 13:58:25 [Note] Crash recovery finished.
+171228  7:02:47 [Note] Plugin 'FEDERATED' is disabled.
+171228  7:02:47  InnoDB: Started; log sequence number 0 44233
+171228  7:02:47 [Note] Recovering after a crash using mysql-bin
+171228  7:02:47 [Note] Starting crash recovery...
+171228  7:02:47 [Note] Crash recovery finished.
+171228  8:27:45 [Note] Plugin 'FEDERATED' is disabled.
+171228  8:27:45  InnoDB: Started; log sequence number 0 44233
+171228  8:27:46 [Note] Recovering after a crash using mysql-bin
+171228  8:27:46 [Note] Starting crash recovery...
+171228  8:27:46 [Note] Crash recovery finished.
+171228 14:07:23 [Note] Plugin 'FEDERATED' is disabled.
+171228 14:07:23  InnoDB: Started; log sequence number 0 44233
+171228 14:07:23 [Note] Recovering after a crash using mysql-bin
+171228 14:07:23 [Note] Starting crash recovery...
+171228 14:07:23 [Note] Crash recovery finished.
+171229  7:08:49 [Note] Plugin 'FEDERATED' is disabled.
+171229  7:08:49  InnoDB: Started; log sequence number 0 44233
+171229  7:08:49 [Note] Recovering after a crash using mysql-bin
+171229  7:08:49 [Note] Starting crash recovery...
+171229  7:08:49 [Note] Crash recovery finished.
+171229 14:04:28 [Note] Plugin 'FEDERATED' is disabled.
+171229 14:04:28  InnoDB: Started; log sequence number 0 44233
+171229 14:04:29 [Note] Recovering after a crash using mysql-bin
+171229 14:04:29 [Note] Starting crash recovery...
+171229 14:04:29 [Note] Crash recovery finished.
+171230  7:06:38 [Note] Plugin 'FEDERATED' is disabled.
+171230  7:06:38  InnoDB: Started; log sequence number 0 44233
+171230  7:06:38 [Note] Recovering after a crash using mysql-bin
+171230  7:06:38 [Note] Starting crash recovery...
+171230  7:06:38 [Note] Crash recovery finished.
+171230 14:07:13 [Note] Plugin 'FEDERATED' is disabled.
+171230 14:07:14  InnoDB: Started; log sequence number 0 44233
+171230 14:07:14 [Note] Recovering after a crash using mysql-bin
+171230 14:07:14 [Note] Starting crash recovery...
+171230 14:07:14 [Note] Crash recovery finished.
+171231  7:08:06 [Note] Plugin 'FEDERATED' is disabled.
+171231  7:08:07  InnoDB: Started; log sequence number 0 44233
+171231  7:08:07 [Note] Recovering after a crash using mysql-bin
+171231  7:08:07 [Note] Starting crash recovery...
+171231  7:08:07 [Note] Crash recovery finished.
+180102  7:03:50 [Note] Plugin 'FEDERATED' is disabled.
+180102  7:03:50  InnoDB: Started; log sequence number 0 44233
+180102  7:03:50 [Note] Recovering after a crash using mysql-bin
+180102  7:03:50 [Note] Starting crash recovery...
+180102  7:03:50 [Note] Crash recovery finished.
+180102 14:02:47 [Note] Plugin 'FEDERATED' is disabled.
+180102 14:02:48  InnoDB: Started; log sequence number 0 44233
+180102 14:02:49 [Note] Recovering after a crash using mysql-bin
+180102 14:02:49 [Note] Starting crash recovery...
+180102 14:02:49 [Note] Crash recovery finished.
+180103  7:09:22 [Note] Plugin 'FEDERATED' is disabled.
+180103  7:09:22  InnoDB: Started; log sequence number 0 44233
+180103  7:09:22 [Note] Recovering after a crash using mysql-bin
+180103  7:09:22 [Note] Starting crash recovery...
+180103  7:09:22 [Note] Crash recovery finished.
+180104  7:09:47 [Note] Plugin 'FEDERATED' is disabled.
+180104  7:09:50  InnoDB: Started; log sequence number 0 44233
+180104  7:09:50 [Note] Recovering after a crash using mysql-bin
+180104  7:09:50 [Note] Starting crash recovery...
+180104  7:09:50 [Note] Crash recovery finished.
+180105  7:10:32 [Note] Plugin 'FEDERATED' is disabled.
+180105  7:10:32  InnoDB: Started; log sequence number 0 44233
+180105  7:10:32 [Note] Recovering after a crash using mysql-bin
+180105  7:10:32 [Note] Starting crash recovery...
+180105  7:10:32 [Note] Crash recovery finished.
+180105 13:59:18 [Note] Plugin 'FEDERATED' is disabled.
+180105 13:59:19  InnoDB: Started; log sequence number 0 44233
+180105 13:59:19 [Note] Recovering after a crash using mysql-bin
+180105 13:59:19 [Note] Starting crash recovery...
+180105 13:59:19 [Note] Crash recovery finished.
+180106  7:02:49 [Note] Plugin 'FEDERATED' is disabled.
+180106  7:02:50  InnoDB: Started; log sequence number 0 44233
+180106  7:02:50 [Note] Recovering after a crash using mysql-bin
+180106  7:02:50 [Note] Starting crash recovery...
+180106  7:02:50 [Note] Crash recovery finished.
+180106 14:09:04 [Note] Plugin 'FEDERATED' is disabled.
+180106 14:09:04  InnoDB: Started; log sequence number 0 44233
+180106 14:09:04 [Note] Recovering after a crash using mysql-bin
+180106 14:09:04 [Note] Starting crash recovery...
+180106 14:09:04 [Note] Crash recovery finished.
+180106 18:06:31 [Note] Plugin 'FEDERATED' is disabled.
+180106 18:06:33  InnoDB: Started; log sequence number 0 44233
+180106 18:06:33 [Note] Recovering after a crash using mysql-bin
+180106 18:06:33 [Note] Starting crash recovery...
+180106 18:06:33 [Note] Crash recovery finished.
+180108  7:02:22 [Note] Plugin 'FEDERATED' is disabled.
+180108  7:02:22  InnoDB: Started; log sequence number 0 44233
+180108  7:02:22 [Note] Recovering after a crash using mysql-bin
+180108  7:02:22 [Note] Starting crash recovery...
+180108  7:02:22 [Note] Crash recovery finished.
+180108  9:09:32 [Note] Plugin 'FEDERATED' is disabled.
+180108  9:09:33  InnoDB: Started; log sequence number 0 44233
+180108  9:09:33 [Note] Recovering after a crash using mysql-bin
+180108  9:09:33 [Note] Starting crash recovery...
+180108  9:09:33 [Note] Crash recovery finished.

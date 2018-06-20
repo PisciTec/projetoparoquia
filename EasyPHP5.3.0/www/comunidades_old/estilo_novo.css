@@ -1,0 +1,111 @@
+body{
+	margin:0px 15px;
+	font: 10px Arial, Helvetica, sans-serif;	
+	text-align:center;
+	}
+
+select { 
+	background-color: #ffffff;
+	font:10px verdana, arial, helvetica, sans-serif;
+	color:#003399;
+}
+
+textarea { 
+	background-color: #ffffff;
+	font:10px verdana, arial, helvetica, sans-serif;
+	color:#003399;
+}
+
+.campos {
+	background-color:#FFFFFF;
+	font: 10px verdana,tahoma, sans-serif;	
+	color:#0033CC;
+	margin-right: 10px;	
+}
+
+.botao {
+	background-color: #c0c0c0;
+	font: 11px Arial, sans-serif;
+	color: #000000;
+	border-color: #FFFFFF;
+}
+
+label {
+	text-align: right;
+	font-weight: bold;
+	width: 75px;
+	padding-right: 20px;	
+	width: 140px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+br {
+	clear: left;
+}
+
+.table_formatada {
+	background-color: #000000;
+	font-size: 11px;
+}
+
+th {
+    background-color: #A4BFD2;
+    font-size: 11px;
+}
+
+td {
+    font-size: 11px;
+}
+
+#scroll_menor{
+width:690px;
+height:300px;
+overflow:auto;
+z-index: 0;
+}
+
+#grupo1{
+width:565px;
+height:300px; 
+overflow:auto;
+z-index: 0;
+}
+
+#janela {
+	width:400px;
+	height:150px;
+	background-color:white;	
+	text-align:left;
+	margin:0 auto;
+	padding: 1em;
+	}
+
+#geral {
+width: 410px;
+margin: auto;
+}
+
+span.topoRedondo, span.baseRedondo {
+display:block; /* deixando o display dos span como block, já que o padrão é inline e é necessário para visualização correta */
+background: transparent; /* deixando o background tranparente para que sempre que mudarmos a cor de fundo do <body> por exemplo, não seja necessário a mudança aqui. */
+}
+
+span.topoRedondo span, span.baseRedondo span {
+display: block; /* deixando o display dos span como block, já que o padrão é inline e é necessário para visualização correta */
+height: 1px; /* declarando a altura dos spans poara 1px */
+overflow: hidden; /* ocultando todo o conteúdo que poderia ser visualizado no span. Todo espaço é reduzido. Sem isso, no i.e. não é visualizado corretamente. */
+background: #A4BFD2; /* definindo a cor de fundo dos spans para verde. Sempre que quiser mudar a cor, essa é a parte que deverá ser alterada. */
+}
+
+span.rum { margin:0 5px; } /* Definindo a margem para 5px para as laterais e 0 para base e topo para o primeiro span */
+span.rdois { margin:0 3px; } /* Definindo a margem para 3px para as laterais e 0 para base e topo para o segundo span */
+span.rtres { margin:0 2px; } /* Definindo a margem para 2px para as laterais e 0 para base e topo para o terceiro span */
+span.rquatro { margin: 0 1px; height: 2px; } /* Definindo a margem para 1px para as laterais e 0 para base e topo para o quarto span e definido a altura para ele de 2px, a única altura diferente dos demais.*/
+
+.meioRedondo {
+background: #A4BFD2; /* definindo a cor de fundo dos spans para verde. Sempre que quiser mudar a cor, essa é a parte que deverá ser alterada. (Sempre deixar a mesma cor dos spans acima) */
+color: #000; /* definido a cor preta para o texto */
+margin: 0; /* zerando a margem */
+padding: 5px 15px; /* definindo padding de 5px para a base e o topo e 15px para as laterais, para que o conteúdo não fique colado nas bordas. */
+}

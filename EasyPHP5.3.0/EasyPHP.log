@@ -1,0 +1,43 @@
+08/01 15:32:49 EasyPHP EasyPHP Inicialização dos Servidores
+08/01 15:32:51 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+08/01 15:32:53 EasyPHP Apache::StartExe ScanProcess found pid=0
+08/01 15:32:54 EasyPHP CreateProcess "C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\Public\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+08/01 15:32:54 EasyPHP MySql   O ficheiro de configuração foi salvo
+08/01 15:32:54 EasyPHP MySqlSutdown event = MySQLShutdown7376
+08/01 15:32:54 EasyPHP MySqlSutdown event open fail = 2
+08/01 15:32:54 EasyPHP Apache  O ficheiro de configuração foi salvo
+08/01 15:33:00 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+08/01 15:33:01 EasyPHP Apache::StartExe ScanProcess found pid=0
+08/01 15:33:35 EasyPHP Apache  O ficheiro de configuração foi salvo
+08/01 15:34:05 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+08/01 15:34:06 EasyPHP Apache::StartExe ScanProcess found pid=7808
+08/01 15:34:19 EasyPHP CreateProcess "C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\Public\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+17/01 20:08:16 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7924) error 5
+17/01 20:08:19 EasyPHP MySql   O MySql foi desligado por erro inesperado !
+21/01 21:14:09 EasyPHP EasyPHP Inicialização dos Servidores
+21/01 21:14:12 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+21/01 21:14:13 EasyPHP Apache::StartExe ScanProcess found pid=884
+21/01 21:14:14 EasyPHP CreateProcess "C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\Public\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+31/01 17:52:52 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 6160) error 5
+01/03 13:53:38 EasyPHP EasyPHP Inicialização dos Servidores
+01/03 13:53:41 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+01/03 13:53:43 EasyPHP Apache::StartExe ScanProcess found pid=9252
+01/03 13:53:44 EasyPHP CreateProcess "C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\Public\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+29/03 09:49:04 EasyPHP EasyPHP Inicialização dos Servidores
+29/03 09:49:05 EasyPHP StartChildProcess "C:\Users\Public\EASYPH~1.0\Apache\bin\apache.exe"
+29/03 09:49:07 EasyPHP Apache::StartExe ScanProcess found pid=5196
+29/03 09:49:08 EasyPHP CreateProcess "C:\Users\Public\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\Public\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+29/03 09:49:08 EasyPHP MySql   O ficheiro de configuração foi salvo
+29/03 09:49:08 EasyPHP MySqlSutdown event = MySQLShutdown6792
+29/03 09:49:08 EasyPHP MySqlSutdown event open fail = 2
+29/03 09:49:08 EasyPHP Apache  O ficheiro de configuração foi salvo
+29/03 09:49:08 EasyPHP Apache restart event: ap5196_restart
+01/04 00:22:38 EasyPHP EasyPHP Inicialização dos Servidores
+01/04 00:22:42 EasyPHP StartChildProcess "C:\Users\raian\DOCUME~1\PAROQUIA\EASYPH~1.0\Apache\bin\apache.exe"
+01/04 00:22:43 EasyPHP Apache::StartExe ScanProcess found pid=25520
+01/04 00:22:44 EasyPHP CreateProcess "C:\Users\raian\DOCUME~1\PAROQUIA\EASYPH~1.0\MySql\bin\mysqld.exe --defaults-file="C:\Users\raian\DOCUME~1\PAROQUIA\EASYPH~1.0\MySql\my.ini" --language=portuguese"
+01/04 00:22:46 EasyPHP MySql   O ficheiro de configuração foi salvo
+01/04 00:22:46 EasyPHP MySqlSutdown event = MySQLShutdown24036
+01/04 00:22:46 EasyPHP MySqlSutdown event open fail = 2
+01/04 00:22:46 EasyPHP Apache  O ficheiro de configuração foi salvo
+01/04 00:22:46 EasyPHP Apache restart event: ap25520_restart

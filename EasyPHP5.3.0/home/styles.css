@@ -1,0 +1,84 @@
+body {margin:0px;padding:0px;background:#ffffff;font-family:arial, helvetica, sans-serif;font-size:70%;}
+
+pre {font-size:100%;padding:10px 0px 10px 0px;margin:0px;}
+a {color:Gray;text-decoration:none;}
+a:hover {color:#BF6217;text-decoration:none;}
+h1 {padding:0px;margin:0px 10px 0px 0px;font-size:130%;color:#7F693F;text-align:right;}
+h2 {padding:15px 0px 1px 0px;margin:0px;font-size:110%;color:#BF8F00;border-bottom:dotted 1px #CFCFCF;}
+p {padding:4px 0px 4px 0px;margin:0px;}
+ul {margin:0px;padding:0px 0px 0px 20px;list-style-type:square;}
+
+.i18n {margin:0px auto 0px auto;padding:2px 0px 10px 80px;width:760px;}
+.i18n_on {margin:1px;padding:0px;background-color:#7A8393;}
+.i18n_off {margin:1px;padding:0px;background-color:#505F70;}
+
+#top {margin:0px;padding:0px;background:#505f70;background-image:url(images_easyphp/top_background.gif);}
+#top .container {width:760px;margin:0px auto 0px auto;padding:0px;}
+#top a {float:left;display:block;margin:0px;padding:10px 0px 0px 20px;color:#E4E4E4}
+#top a:hover {color:#BF6217;}
+
+#body {clear:both;margin:0px;padding:0px 0px 5px 0px;font-family:arial, helvetica, sans-serif;}
+#body .container {width:760px;margin:0px auto 0px auto;padding:0px;text-align:left;}
+#body .content {width:600px;margin:0px auto 0px auto;padding:10px 0px 10px 0px;text-align:left;}
+#body .box_top {clear:both;width:760px;margin:0px;padding:0px;}
+#body .box_body {clear:both;width:760px;margin:0px;padding:0px;background-color:#eeeeee;}
+#body .box_bottom {clear:both;width:760px;margin:0px;padding:0px;}
+#body .code {margin:0px;padding:5px 0px 5px 30px;color:Gray;font-family:verdana, arial, helvetica, sans-serif;}
+
+#body .info {clear:both;width:760px;margin:0px 0px 20px 0px;padding:0px;background-color:#DEDF99;background-image:url(images_easyphp/bar_info_bg.gif);}
+#body .info_left {clear:both;float:left;width:375px;margin:0px;padding:0px 10px 0px 0px;}
+#body .info_left p {margin:0px;padding:5px 10px 5px 10px;text-align:center;}
+#body .info_left p span a {color:#8F381A;padding:0px;margin:0px;color:#8F381A;font-weight:bold;}
+#body .info_left p span a:hover {text-decoration:underline;}
+#body .info_left a {color:#BF6217;}
+#body .info_left a:hover {text-decoration:underline;}
+#body .info_right {float:left;width:375px;margin:0px;padding:0px 0px 0px 0px;}
+#body .info_right p {margin:0px;padding:5px 10px 5px 40px;text-align:center;color:#4F4127;background-image:url(images_easyphp/usb_key.png);background-repeat:no-repeat;}
+
+#body .content_left {clear:both;float:left;width:200px;text-align:right;margin:0px;padding:0px 10px 10px 0px;}
+#body .content_right {float:left;width:550px;margin:0px;padding:0px 0px 30px 0px;}
+
+#body .localweb_form {margin:4px 0px 0px 0px;padding:0px;background-color:#EEEEEE;}
+#body .localweb_form div {margin:0px;padding:5px 0px 5px 10px;color:black;}
+#body .localweb_form input {vertical-align:middle;margin:0px;padding:1px;border:0px;background-color:#E3E3E3; color:#515250;}
+#body .localweb_form .submit {vertical-align:middle;margin:0px;padding:0px;border:0px;}
+
+#body .localweb_path {vertical-align:bottom;color:gray;margin:0px;padding:0px 0px 0px 40px;}
+#body .localweb_change {vertical-align:bottom;color:black;margin:0px;padding:0px;}
+#body .localweb {margin:5px 0px 15px 0px;padding:0px;}
+#body .localweb_name a {color:#BF6217;margin:0px;padding:0px;}
+#body .localweb_name a:hover {text-decoration:underline;}
+#body .localweb_img {margin:0px;padding:6px 4px 0px 0px;}
+
+#body .alias_intro {margin:5px 0px 5px 0px;padding:0px;color:#BF6217;text-align:center;font-weight:bold;}
+#body .alias_form {margin:4px 0px 0px 0px;padding:0px;background-color:#EEEEEE;}
+#body .alias_form div {margin:0px;padding:10px;color:#8F381A;color:black}
+#body .alias_form div div {margin:0px 0px 10px 0px;padding:0px;color:#8F381A;color:black}
+#body .alias_form div div img {margin:0px;padding:0px 4px 0px 0px;}
+#body .alias_form input {margin:2px 0px 5px 20px;padding:1px;border:0px;background-color:#E3E3E3; color:#515250;}
+#body .alias_form textarea {margin:2px 0px 0px 20px;padding:1px;border:0px;background-color:#E3E3E3; color:#515250;}
+#body .alias_form .submit {margin:0px 0px 0px 20px;padding:0px;}
+
+#body .alias_list {margin:5px 0px 0px 0px;padding:0px;border-collapse:collapse;}
+#body .alias_list .alias_name a {color:#BF6217}
+#body .alias_list .alias_name a:hover {text-decoration:underline;}
+#body .alias_list .alias_path {color:Gray;margin:0px;padding:0px 0px 0px 40px;}
+
+#body .extensions {margin:0px;padding:5px 0px 0px 0px;}
+#body .extension_name {margin:0px;padding:0px 0px 0px 0px;font-weight:bold;color:#BF8F00;}
+#body .function_name {margin:0px;padding:0px 0px 0px 15px;}
+
+#body .timezone {margin:4px 0px 10px 0px;padding:0px;background-color:#EEEEEE;}
+#body .timezone div {margin:0px;padding:5px;}
+#body .timezone form {margin:0px 0px 0px 0px;padding:0px;}
+#body .timezone select {vertical-align:top;margin:0px;padding:0px;border:0px; background-color:#E3E3E3; color:#515250;font-size:100%;}
+#body .timezone input {vertical-align:top;margin:0px;padding:0px;border:0px;background-color:#E3E3E3; color:#515250;font-size:100%;}
+#body .timezone div span {vertical-align:top;font-weight:bold;margin:0px 0px 0px 40px;padding:0px 10px 1px 10px;color:#7F693F;background-color:#E3E3E3;}
+#body .timezone div img {vertical-align:top;margin:0px 0px 0px 5px;padding:0px 0px 0px 0px;}
+#body .timezone .refresh {vertical-align:top;margin:0px 0px 0px 10px;padding:0px 0px 0px 0px;}
+
+#body .mysql {margin:5px 0px 0px 0px;padding:0px;background-color:#EEEEEE;}
+#body .mysql div {margin:0px;padding:5px;}
+#body .mysql div span {font-weight:bold;color:#7F693F;}
+
+#bottom {clear:both;margin:0px;padding:5px;text-align:right;}

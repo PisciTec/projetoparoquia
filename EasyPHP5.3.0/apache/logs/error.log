@@ -1,0 +1,93 @@
+[Mon Jan 08 15:34:05 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Mon Jan 08 15:34:05 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Mon Jan 08 15:34:05 2018] [notice] Parent: Created child process 7368
+[Mon Jan 08 15:34:05 2018] [notice] Child 7368: Child process is running
+[Mon Jan 08 15:34:05 2018] [notice] Child 7368: Acquired the start mutex.
+[Mon Jan 08 15:34:05 2018] [notice] Child 7368: Starting 64 worker threads.
+[Mon Jan 08 15:34:05 2018] [notice] Child 7368: Starting thread to listen on port 80.
+[Mon Jan 08 15:34:41 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/Public/EasyPHP5.3.0/www/favicon.ico, referer: http://localhost/missa/cadastra_missa.php
+[Mon Jan 08 15:34:52 2018] [error] [client 127.0.0.1] PHP Warning:  parse error in ../EasyPHP.ini on line 13\n in C:\\Users\\Public\\EasyPHP5.3.0\\home\\i18n.inc.php on line 5, referer: http://localhost/
+[Tue Jan 09 15:55:44 2018] [error] [client 127.0.0.1] PHP Warning:  parse error in ../EasyPHP.ini on line 13\n in C:\\Users\\Public\\EasyPHP5.3.0\\home\\i18n.inc.php on line 5
+[Sun Jan 21 21:14:12 2018] [warn] pid file C:/Users/Public/EasyPHP5.3.0/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 21 21:14:12 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Sun Jan 21 21:14:12 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Sun Jan 21 21:14:12 2018] [notice] Parent: Created child process 5292
+[Sun Jan 21 21:14:12 2018] [notice] Child 5292: Child process is running
+[Sun Jan 21 21:14:12 2018] [notice] Child 5292: Acquired the start mutex.
+[Sun Jan 21 21:14:12 2018] [notice] Child 5292: Starting 64 worker threads.
+[Sun Jan 21 21:14:12 2018] [notice] Child 5292: Starting thread to listen on port 80.
+[Sun Jan 21 21:14:23 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/Public/EasyPHP5.3.0/www/missa/principal
+[Sun Jan 21 21:14:23 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/Public/EasyPHP5.3.0/www/favicon.ico, referer: http://localhost/missa/principal
+[Sun Jan 21 21:15:08 2018] [error] [client 127.0.0.1] PHP Warning:  parse error in ../EasyPHP.ini on line 13\n in C:\\Users\\Public\\EasyPHP5.3.0\\home\\i18n.inc.php on line 5
+[Sun Jan 21 21:25:07 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_data_hora.php
+[Sun Jan 21 21:25:07 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_data_hora.php
+[Sun Jan 21 21:27:00 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:27:00 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:27:00 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:27:00 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:33:39 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:33:39 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:33:39 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:33:39 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_periodo.php
+[Sun Jan 21 21:47:22 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined index: cod_missa in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\alterar_dados_missa.php on line 50, referer: http://localhost/missa/alterar_dados_missa.php?cod_missa=1221391
+[Sun Jan 21 21:47:22 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/alterar_dados_missa.php?cod_missa=1221391
+[Sun Jan 21 21:47:22 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/alterar_dados_missa.php?cod_missa=1221391
+[Thu Mar 01 13:53:42 2018] [warn] pid file C:/Users/Public/EasyPHP5.3.0/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 01 13:53:43 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Thu Mar 01 13:53:43 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Thu Mar 01 13:53:43 2018] [notice] Parent: Created child process 8860
+[Thu Mar 01 13:53:43 2018] [notice] Child 8860: Child process is running
+[Thu Mar 01 13:53:43 2018] [notice] Child 8860: Acquired the start mutex.
+[Thu Mar 01 13:53:43 2018] [notice] Child 8860: Starting 64 worker threads.
+[Thu Mar 01 13:53:43 2018] [notice] Child 8860: Starting thread to listen on port 80.
+[Thu Mar 01 13:54:03 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/Public/EasyPHP5.3.0/www/favicon.ico, referer: http://localhost/missa/missas_periodo.php
+[Thu Mar 01 13:56:10 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 2 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_data_hora.php
+[Thu Mar 01 13:56:10 2018] [error] [client 127.0.0.1] PHP Notice:  Undefined offset: 1 in C:\\Users\\Public\\EasyPHP5.3.0\\www\\missa\\funcoes.inc on line 11, referer: http://localhost/missa/missas_data_hora.php
+[Thu Mar 29 09:49:07 2018] [warn] pid file C:/Users/Public/EasyPHP5.3.0/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 29 09:49:07 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Thu Mar 29 09:49:07 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Thu Mar 29 09:49:07 2018] [notice] Parent: Created child process 6620
+[Thu Mar 29 09:49:07 2018] [notice] Child 6620: Child process is running
+[Thu Mar 29 09:49:08 2018] [notice] Child 6620: Acquired the start mutex.
+[Thu Mar 29 09:49:08 2018] [notice] Child 6620: Starting 64 worker threads.
+[Thu Mar 29 09:49:08 2018] [notice] Child 6620: Starting thread to listen on port 80.
+[Thu Mar 29 09:49:08 2018] [notice] Parent: Received restart signal -- Restarting the server.
+[Thu Mar 29 09:49:08 2018] [notice] Child 6620: Exit event signaled. Child process is ending.
+[Thu Mar 29 09:49:08 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Thu Mar 29 09:49:08 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Thu Mar 29 09:49:08 2018] [notice] Parent: Created child process 7124
+[Thu Mar 29 09:49:09 2018] [notice] Child 7124: Child process is running
+[Thu Mar 29 09:49:09 2018] [notice] Child 6620: Released the start mutex
+[Thu Mar 29 09:49:09 2018] [notice] Child 7124: Acquired the start mutex.
+[Thu Mar 29 09:49:09 2018] [notice] Child 7124: Starting 64 worker threads.
+[Thu Mar 29 09:49:10 2018] [notice] Child 6620: All worker threads have exited.
+[Thu Mar 29 09:49:10 2018] [notice] Child 6620: Child process is exiting
+[Thu Mar 29 09:49:10 2018] [notice] Child 7124: Starting thread to listen on port 80.
+[Thu Mar 29 09:49:23 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/Public/EasyPHP5.3.0/www/favicon.ico, referer: http://localhost/missa/principal.php
+[Sun Apr 01 00:22:42 2018] [warn] pid file C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 01 00:22:42 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Sun Apr 01 00:22:42 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Sun Apr 01 00:22:42 2018] [notice] Parent: Created child process 12784
+[Sun Apr 01 00:22:42 2018] [notice] Child 12784: Child process is running
+[Sun Apr 01 00:22:42 2018] [notice] Child 12784: Acquired the start mutex.
+[Sun Apr 01 00:22:42 2018] [notice] Child 12784: Starting 64 worker threads.
+[Sun Apr 01 00:22:42 2018] [notice] Child 12784: Starting thread to listen on port 80.
+[Sun Apr 01 00:22:46 2018] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 01 00:22:46 2018] [notice] Child 12784: Exit event signaled. Child process is ending.
+[Sun Apr 01 00:22:46 2018] [notice] Apache/2.2.13 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Sun Apr 01 00:22:46 2018] [notice] Server built: Aug  6 2009 15:50:50
+[Sun Apr 01 00:22:46 2018] [notice] Parent: Created child process 24608
+[Sun Apr 01 00:22:46 2018] [notice] Child 24608: Child process is running
+[Sun Apr 01 00:22:47 2018] [notice] Child 24608: Acquired the start mutex.
+[Sun Apr 01 00:22:47 2018] [notice] Child 24608: Starting 64 worker threads.
+[Sun Apr 01 00:22:47 2018] [notice] Child 12784: Released the start mutex
+[Sun Apr 01 00:22:48 2018] [notice] Child 12784: All worker threads have exited.
+[Sun Apr 01 00:22:48 2018] [notice] Child 12784: Child process is exiting
+[Sun Apr 01 00:22:48 2018] [notice] Child 24608: Starting thread to listen on port 80.
+[Sun Apr 01 00:23:06 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/www/favicon.ico, referer: http://localhost/missa/principal.php
+[Sun Apr 01 00:23:17 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/www/principal;php
+[Sun Apr 01 00:23:21 2018] [error] [client 127.0.0.1] script 'C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/www/principal.php' not found or unable to stat
+[Sun Apr 01 00:23:25 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/www/principal
+[Sun Apr 01 00:23:34 2018] [error] [client 127.0.0.1] script 'C:/Users/raian/Documents/PAROQUIA/EasyPHP5.3.0/www/home.php' not found or unable to stat
+[Sun Apr 01 00:23:37 2018] [error] [client 127.0.0.1] PHP Warning:  parse error in ../EasyPHP.ini on line 13\n in C:\\Users\\raian\\Documents\\PAROQUIA\\EasyPHP5.3.0\\home\\i18n.inc.php on line 5
+[Sun Apr 01 00:23:59 2018] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant cadastro - assumed 'cadastro' in C:\\Users\\raian\\Documents\\PAROQUIA\\EasyPHP5.3.0\\www\\cemiterio\\cadastra_contrato.php on line 32, referer: http://localhost/cemiterio/cadastro.php

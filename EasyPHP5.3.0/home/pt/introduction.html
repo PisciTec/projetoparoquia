@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="shortcut icon" href="../images_easyphp/easyphp_favicon.ico" />
+<title>[EasyPHP] - introdução</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../styles.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="top">
+	<div class="container">
+		<img src="../images_easyphp/top_version.gif" width="81" height="40" alt="version" style="float:right;" />
+		<img src="../images_easyphp/top_title.gif" width="226" height="40" alt="EasyPHP" border="0" style="float:left;" />
+		<a href="index.html"><img src="../images_easyphp/top_section_in.gif" width="11" height="7" alt=">" border="0" />ajuda</a>
+		<a href="introduction.html"><img src="../images_easyphp/top_section_in.gif" width="11" height="7" alt=">" border="0" />introdução</a>
+		<a href="support.html"><img src="../images_easyphp/top_section_in.gif" width="11" height="7" alt=">" border="0" />suporte</a>
+		<a href="http://www.easyphp.org"><img src="../images_easyphp/top_section_out.gif" width="11" height="7" alt=">" border="0" />www.easyphp.org</a>
+		<div style="clear:both;"></div>
+	</div>
+</div>
+
+<div class="i18n">
+	<a href='../en/introduction.html'><img src='../images_easyphp/i18n_en.gif' width='32' height='9' border='0' alt='i18n:en' class='i18n_off' /></a><a href='../es/introduction.html'><img src='../images_easyphp/i18n_es.gif' width='32' height='9' border='0' alt='i18n:es' class='i18n_off' /></a><a href='../fr/introduction.html'><img src='../images_easyphp/i18n_fr.gif' width='32' height='9' border='0' alt='i18n:fr' class='i18n_off' /></a><a href='../it/introduction.html'><img src='../images_easyphp/i18n_it.gif' width='32' height='9' border='0' alt='i18n:it' class='i18n_off' /></a><a href='../nw/introduction.html'><img src='../images_easyphp/i18n_nw.gif' width='32' height='9' border='0' alt='i18n:nw' class='i18n_off' /></a><a href='../pt/introduction.html'><img src='../images_easyphp/i18n_pt.gif' width='32' height='9' border='0' alt='i18n:pt' class='i18n_on' /></a><a href='../pt_br/introduction.html'><img src='../images_easyphp/i18n_pt_br.gif' width='32' height='9' border='0' alt='i18n:pt_br' class='i18n_off' /></a></div>
+
+<div id="body">
+	<div class="container">
+		<h1>INTRODUÇÃO</h1>
+
+		<div class="box_top"><img src="../images_easyphp/box_top.gif" width="760" height="2" alt="--- top box ---" /></div>
+		<div class="box_body">
+			<div class="content">
+				
+					<h2>Instalar o EasyPHP</h2>
+					<ul>
+					<li>Descarregar o EasyPHP no site <a href="http://www.easyphp.org">www.easyphp.org</a></li>
+					<li>Duplo clique sobre o ficheiro executável</li>
+					<li>Seleccione o directório de instalação e siga as instruções</li>
+					</ul>
+					
+					<h2>Iniciar o EasyPHP</h2>
+					<p>
+					<img src="../images_easyphp/menu.gif" width="135" height="186" alt="menu" style="float:right;padding:0px;margin:0px 15px 0px 0px;" />
+					<img src="../images_easyphp/systray.gif" width="100" height="37" alt="systray" style="float:right;padding:0px;margin:0px 15px 0px 10px;" /> 								
+					Não se pode dizer iniciar o EasyPHP como se fosse um simples programa, uma vez que se trata, na realidade, do arranque do servidor do Apache et de MySQL.					Durante a instalação, é criado um atalho para o EasyPHP em "Iniciar/Programas/EasyPHP".					Depois de ter sido iniciado o EasyPHP, surge um ícone ao lado do relógio na barra do Windows [1].					</p>
+					Clicar com o botão direito do rato sobre o ícone do EasyPHP  permite aceder a diferentes opções de menu [2]:					<ul>
+					<li>Ajuda : Ajuda do EasyPHP</li>
+					<li>Ficheiros Log : apresenta os relatórios gerados pelo Apache, MySQL e o EasyPHP</li>
+					<li>Configuração: permite aceder às diferentes ferramentas de configuração</li>
+					<li>Explorar : abre o directório "www" através do explorador do Windows</li>
+					<li>Administração: abre a página de administração</li>
+					<li>Web local: abre a web local</li>
+					<li>Reiniciar: reinicia o Apache e o MySQL</li>
+					<li>Iniciar/parar : Iniciar/parar o Apache e o MySQL</li>
+					<li>Sair : encerrar o EasyPHP</li>
+					</ul>
+					
+					<h2>Utilize o directório "www" ou os alias</h2>
+					<p>
+					Para que as suas páginas PHP sejam interpretadas, é necessário que coloque os seus ficheiros dentro do directório  "www" ou dentro de um alias que tenha criado. Para visualizar as suas páginas basta abrir a "Web local" ou aceder aos seus alias através da página de administração.					</p>
+
+					<h2>As suas primeiras páginas em PHP</h2>
+					<p>
+					Existem inúmeras formas de programar em PHP e diversos programas de edição. Neste exemplo, utilizar-se-á um simples editor de texto.					</p>
+					<p>
+					<img src="../images_easyphp/num_1.gif" width="14" height="18" alt="1." style="padding:0px;margin:0px 4px 0px 0px;" />Abra um novo ficheiro<br />
+					<img src="../images_easyphp/num_2.gif" width="14" height="18" alt="2." style="padding:0px;margin:0px 4px 0px 0px;" />Crie a estrutura de uma página HTML:<br />
+					<div class="code">
+						&lt;html&gt;<br />
+						&lt;head&gt;<br />
+						&lt;title&gt;A minha primeira página em PHP&lt;/title&gt;<br />
+						&lt;/head&gt;<br />
+						&lt;body&gt;<br />
+						<br />
+						&lt;/body&gt;<br />
+						&lt;/html&gt; <br />
+					</div> 
+					<img src="../images_easyphp/num_3.gif" width="14" height="18" alt="3." style="padding:0px;margin:0px 4px 0px 0px;" />O exemplo consiste em criar a data actual. O código PHP integra-se directamente no  HTML e começa por "<?php" e termina com " ?>".					<div class="code">
+						&lt;html&gt;<br />
+						&lt;head&gt;<br />
+						&lt;title&gt;A minha primeira página em PHP&lt;/title&gt;<br />
+						&lt;/head&gt;<br />
+						&lt;body&gt;<br />
+						<br />
+						Data actual : &lt;?php print (Date(&quot;l F d, Y&quot;)); ?&gt;<br />
+						<br />
+						&lt;/body&gt;<br />
+						&lt;/html&gt; <br />
+					</div> 
+					<br />
+					<img src="../images_easyphp/num_4.gif" width="14" height="18" alt="4." style="padding:0px;margin:0px 4px 0px 0px;" />Registo da página.<br />
+					Crie um novo directório em "www" (ou dentro de um alias). Regsite a sua primeira pagina em PHP dando-lhe as seguintes extensões: php (aconselhado), php3, php4.<br />
+					Não se trata de uma regra absoluta, mas corresponde à configuração do EasyPHP. Poderá ser-lhe útil, se pretender alojar as suas páginas num servidor em que a configuração seja diferente, modificar estas extensões.<br />
+					No exemplo, seleccionou-se uma extensão en .php:<br />
+					Rq : assegure-se que o Windows reconheça as extensões dos ficheiros sejam reconhecidos e vísiveis.<br />
+					<br />
+					<img src="../images_easyphp/num_5.gif" width="14" height="18" alt="5." style="padding:0px;margin:0px 4px 0px 0px;" />Visualização dos resultados.<br />
+					* NUNCA FAZER : ir ao directório "www" (ou ao directório de um alias) e clicar sobre a sua página de exemplo. Ser-lhe-á apresentada uma mensagem de erro.<br />
+					* FAZER : iniciar o EasyPHP, abrir a "Web local", seleccionar o directório de trabalho (ou um alias) e clicar sobre "date.php". Obterá uma página que lhe mostrará a data actual; Por exemplo : "Data actual : Wednesday March 22, 2006".<br />
+					<br />
+					A si de criar os seus próprios projectos.			</div>
+		</div>
+		<div class="box_bottom"><img src="../images_easyphp/box_bottom.gif" width="760" height="2" alt="--- bottom box ---" /></div>
+	</div>	
+</div>
+
+</body>
+</html>
